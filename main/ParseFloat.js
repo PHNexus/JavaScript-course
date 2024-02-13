@@ -9,9 +9,9 @@ let a = parseFloat(prompt('digite um numero'))
 let b = parseFloat(prompt('digite outro numero'))
 
 // ira mostrar a soma dos numero
-s
-let resultado = (`o resultado dessa soma é: ${(a + b)} / 2 `)
+
+let resultado =  (a + b) / 2
 
 
-alert(resultado)
+alert('O resultado dessa soma é, ' + resultado)
 // ira imprimir o resultado
