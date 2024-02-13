@@ -12,6 +12,7 @@ e ira excluir os nomes Vinicius e edvaldo
 
 */
 
+
 nome.push("Tiringa")
 
 console.log(nome)
