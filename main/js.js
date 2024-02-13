@@ -1,5 +1,8 @@
+// variavel array nome
 var nome = ["Lucas", "Vinicius", "Edvaldo"];
+// variavel novos nomes a aparecer nas posições 1 e 2
 var novos =  nome.splice (1,2,"Leo", "Leonardo");
+// imprimir a variavel 
 console.log(nome);
 
 /*

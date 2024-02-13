@@ -1,8 +1,11 @@
+// variavel com arrays estados
 var estados = ["Amazonas", "Minas-Gerais", "Acre"]
+// estrutura de loop
 for(var pos = 0; pos <  estados.length; pos++){
 
 
-console.log(estados[2])
+// imprimir a variavel nas seguintes posições naturais e numeradas
+console.log(pos)
 
 }
 
