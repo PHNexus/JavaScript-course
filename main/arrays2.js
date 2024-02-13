@@ -6,6 +6,6 @@ console.log(estados[2])
 
 }
 
-
+// ira mostrar o estado na posição 02
 
 

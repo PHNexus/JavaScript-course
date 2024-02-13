@@ -14,4 +14,4 @@ let resultado = (`o resultado dessa soma é: ${(a + b)} / 2 `)
 
 
 alert(resultado)
-
+// ira imprimir o resultado
