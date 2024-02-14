@@ -7,7 +7,7 @@ opção invalida
 */
 var bebidas = ("Digite");
 // valor dinheiro
-let valor = ""
+let valor = "";
 
 
 //
@@ -26,7 +26,7 @@ break;
 default:
     console.log("opção inválida, " + valor)
 
-}
+};
 
 // imprimir
-console.log() 
+console.log();
