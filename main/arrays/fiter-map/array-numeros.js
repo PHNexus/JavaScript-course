@@ -27,6 +27,8 @@ return valor < 5;
 
 }
 
+// return retorna um valor menos que 5
+
 // variavel dos numeros encontrados
 var numerosEncontrados = numeros.filter(buscarValores);
 // ira imprimir o numero encontrado

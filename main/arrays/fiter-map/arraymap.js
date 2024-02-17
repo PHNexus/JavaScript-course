@@ -34,6 +34,7 @@ return value.função == "Mendingo"
 
 })
 
+// return igual a função mendingo
 
 
 /*imprimir os funcionarios true para 
