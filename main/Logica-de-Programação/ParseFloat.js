@@ -15,3 +15,6 @@ let resultado =  (a + b) / 2
 
 alert('O resultado dessa soma é, ' + resultado)
 // ira imprimir o resultado
+
+
+
