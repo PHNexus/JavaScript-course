@@ -1,0 +1,45 @@
+h1{
+
+background-color: yellow;
+border: 1px solid black;
+border-radius: 15px;
+text-align: center;
+margin: auto;
+margin-bottom: 5%;
+margin-left: 15%;
+margin-right: 15%;
+
+
+}
+
+
+p {
+
+background-color: rgb(204, 216, 37);
+border: 1px solid rgba(0, 255, 13, 0.795);
+border-radius: 5px;
+text-align: center;
+margin: auto;
+margin-top: 5%;
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+
+}
+
+
+div#area {
+
+
+background-color: aqua;
+border: 1px solid black;
+border-radius: 50px;
+width: 200px;
+height: 200px;
+text-align: center;
+line-height: 200px;
+
+}
+
+
+

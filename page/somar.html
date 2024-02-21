@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando</title>
+</head>
+<body>
+    <h1>Somando Os numeros</h1>
+    <input type="number" name="txtn1" id="txtn1"> <!--input do tipoe numero-->
+    <input type="number" name="txtn2" id="txtn2"> <!--input do tipo numero-->
+    <button type="button" onclick="soma()">Somar</button> <!--button-->
+
+    <div id="res">Resultado</div>
+<script>
+
+    function soma(){
+
+    var n1 = document.getElementById('txtn1')   // selecionando com id
+    var n2 = document.querySelector('input#txtn2') // selecionando com name
+    var n1 = parseFloat(n1.value) // converter numero em numeros reais
+    var n2 = parseFloat(n2.value) // converter numero em numeros reais
+    var soma = n1 + n2   // soma das duas variaveis
+
+    res.innerHTML = soma  // exibir soma quando clicar em somar
+    }
+
+
+</script>
+</body>
+</html>
