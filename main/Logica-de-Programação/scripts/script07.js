@@ -1,2 +1,10 @@
-var p1 = document.getElementsByTagName('p')[0];  // dom 
-document.write('Está escrito assim: ' + p1.innerText);
+var velocidade = 90
+
+if (velocidade > 80){ // se não tiver else if se torna uma condição simples
+    console.log('voce ultrapassou a velocidade permitida')
+    console.log('Multa, 1200$ ')
+}else {
+
+console.log('Continue,Assim mas sempre use cinto de segurança')
+
+}
