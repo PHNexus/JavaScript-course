@@ -1,3 +1,5 @@
+// aprendendo sobre if e else
+
 var velocidade = 90
 
 if (velocidade > 80){ // se não tiver else if se torna uma condição simples

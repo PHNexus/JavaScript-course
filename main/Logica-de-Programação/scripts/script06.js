@@ -1,3 +1,5 @@
+// aprendendo sobre operadores e if e else
+
 var n1 =  1   // variavel number
 var n2 = '2'   // variavel string
 
