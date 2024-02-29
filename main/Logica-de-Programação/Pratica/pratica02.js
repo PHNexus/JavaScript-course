@@ -1,3 +1,5 @@
+// operadores 
+
 var nome = ("Marcos") // variavel recebe nome
 var idade = ("idade") // variavel recebe idade
 

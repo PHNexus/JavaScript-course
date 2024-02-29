@@ -1,3 +1,5 @@
+// praticando if e else + operadores
+
 var pais = 'Eua'
 
 if (pais == 'Brazil'){ // se o pais for igual a brasil vc e brasileiro
