@@ -1,3 +1,5 @@
+// seletores é funções
+
 var nome = prompt("Qual é o seu nome?")
 document.write(`Seu nome tem ${nome.length} letras <br/>`) 
 /* função length mostrar 
