@@ -1,2 +1,3 @@
 // 0, '', [], false, undefined, null, => false 
-// operadores não validos
+// operadores não validos || Nullish Coalescing Operator
+
