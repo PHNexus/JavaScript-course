@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style/dom.css">
+    <title>Work</title>
+</head>
+<body>
+<h1 id="hp">Estudos com dom</h1> 
+<h2>Ola</h2>
+<p><b>JavaScrpt</b> E uma boa linguagem?</p>
+<p class="p1">Hello,World</p>
+<!--Isso e um comentario em HTML-->
+<div id="sp1">Clique em mim  </div>
+<script>
+    // comandos com DOM
+document.write("Ola mundo")// maneira simples d` adicionar palavras usando Javascript
+document.write("<br>");
+document.write(document.charset) // ira mostrar o seu set/configuração de caracteres
+document.write("<br>");
+document.write(window.navigator.appName) // chrome esta se comportando como Netscape
+document.write("<br>");
+document.write(document.URL) // qual url vc esta usando
+document.write("<br>");
+    // maneiras de navegar pelos elementos
+// vocẽ pode selecionar elementos dessas maneiras
+
+var corpo = document.body
+corpo.style.backgroundColor = "white" 
+
+var marca = document.getElementsByTagName('p')[0] // Por marca/Tag
+    document.write('Esta Escrito assim no paragrafo: ' + marca.innerHTML) 
+    window.confirm(marca.innerText)
+    /* 
+    inner.HTML - ira mostra a estilização + o texto
+    inner.Text - ira mostra apenas o texto
+    console.log("Hello,World") exemplo de um codico
+    */ 
+document.write("<br>");
+var d = document.getElementById('hp'); // Por id
+d.style.backgroundColor =  "red";
+d.innerText = "Estou aguardando"; // substitui o texto do  id
+var nome = document.getElementsByName('');//Por Nome
+var Classe = document.getElementsByClassName('p1') //Por Classe
+var selection = document.querySelector('div#sp1'); // Por Seletor
+selection.style.color = "red"
+
+
+
+</script>
+</body>
+</html>
