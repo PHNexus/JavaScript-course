@@ -1,4 +1,4 @@
-/* variavel com a bebida, seguintes opções
+ /* variavel com a bebida, seguintes opções
 
 Leite Chá e café
 se vc digitar outro nome ira aparecer no terminal 
