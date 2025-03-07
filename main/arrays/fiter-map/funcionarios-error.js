@@ -6,7 +6,7 @@ const funcionarios = [
 ];
 
 const pessoasListagem = funcionarios.filter((funcionario) => {
-    return funcionario.nome.length < 5;
+    return funcionario.nome.length > 5;
 });
 
 console.log(pessoasListagem);
