@@ -1,9 +1,7 @@
 // variavel array valores
-var valores = [8,1,7,2,9];
+var valores = [8, 1, 7, 2, 9];
 // imprimir valores somente da posição 3
-console.log(valores[3])
-
-
+console.log(valores[3]);
 
 // variavel array car
 var car = [];
@@ -18,7 +16,7 @@ ira adicionar as seguintes marcas
 bmw e kawasaki junto com jeep
 */
 
-var motos = car.splice(0,1, "bmw", "kawasaki")
+var motos = car.splice(0, 1, "bmw", "kawasaki");
 
 // imprimiver a variavel car
-console.log(car)
+console.log(car);

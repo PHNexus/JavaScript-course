@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/style/eventos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../assets/style/eventos.css" />
+  </head>
+  <body>
     <div>
-
-<h1>WorkSpace</h1>
-<hr>
-<p>Hello,World</p>
+      <h1>WorkSpace</h1>
+      <hr />
+      <p>Hello,World</p>
     </div>
 
-<div id="area">
-
-    Clique!
-
-</div>
+    <div id="area">Clique!</div>
 
     <script>
-        var a = document.getElementById('area')  
-        a.addEventListener('click',clicar) // evento de ao clicar executar uma ação
-        a.addEventListener('mouseenter',entrar) // evento de passar ao passar o mouse executar uma ação
-        a.addEventListener('mouseout',sair) // ao sair executar uma ação
+      var a = document.getElementById("area");
+      a.addEventListener("click", clicar); // evento de ao clicar executar uma ação
+      a.addEventListener("mouseenter", entrar); // evento de passar ao passar o mouse executar uma ação
+      a.addEventListener("mouseout", sair); // ao sair executar uma ação
 
-function clicar(){
-a.innerText = 'Clicou!'
-a.style.backgroundColor = "green"
-}
-/* função clicar ira
+      function clicar() {
+        a.innerText = "Clicou!";
+        a.style.backgroundColor = "green";
+      }
+      /* função clicar ira
 Mostrar uma palavra > clicou
 Mudar a cor > green
 */
 
-function entrar(){
-
-a.innerText = 'Passou o mouse'
-a.style.backgroundColor = "red"
-
-
-}
-/* função entrar ira
+      function entrar() {
+        a.innerText = "Passou o mouse";
+        a.style.backgroundColor = "red";
+      }
+      /* função entrar ira
 Mostrar uma palavra > passou o mouse
 Mudar a cor > red
 */
 
-function sair(){
-
-a.innerText = 'Tirou o mouse de cima'
-a.style.backgroundColor = "cyan"
-
-}
-/* função sair ira
+      function sair() {
+        a.innerText = "Tirou o mouse de cima";
+        a.style.backgroundColor = "cyan";
+      }
+      /* função sair ira
 Mostrar uma palavra > tirou o mouse de cima
 Mudar a cor > cyan
 */
-
-
-
-
-
-
     </script>
-</body>
+  </body>
 </html>

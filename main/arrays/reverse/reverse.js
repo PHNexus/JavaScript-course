@@ -1,9 +1,9 @@
 // variavel numeros naturais
-var Numeros = ["1", "2", "3", "4", "5"]
+var Numeros = ["1", "2", "3", "4", "5"];
 // reverse ira ordernar os numeros de forma maior pra cima
-Numeros.reverse()
+Numeros.reverse();
 // imprimir a variavel
-console.log(Numeros)
+console.log(Numeros);
 
 /* 
 ira dar um reverse nas ordens do numero

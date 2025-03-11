@@ -1,13 +1,13 @@
-var compras = ("Maça")
+var compras = "Maça";
 
-switch(compras){
-    case("Banana"):
+switch (compras) {
+  case "Banana":
     break;
-    case("jabuticaba"):
+  case "jabuticaba":
     break;
-    case("coove"):
+  case "coove":
     break;
-    case("Maça"):
+  case "Maça":
 }
 
-console.log("obrigado por comprar uma maça pobre, "+compras)
+console.log("obrigado por comprar uma maça pobre, " + compras);

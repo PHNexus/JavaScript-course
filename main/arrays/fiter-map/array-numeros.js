@@ -7,8 +7,8 @@ console.log(resultado);
 
 // var numeros filtrados
 // ira retornar um numero  maior que 5
-var numerosfiltrados = numeros.filter(function(valor) {
-    return valor > 5;
+var numerosfiltrados = numeros.filter(function (valor) {
+  return valor > 5;
 });
 
 // ira imprimir o numero filtrado maior que 5
@@ -16,7 +16,7 @@ console.log(numerosfiltrados);
 
 // função para buscar valores menores que 5
 function buscarValores(valor) {
-    return valor < 5;
+  return valor < 5;
 }
 
 // return retorna um valor menos que 5
