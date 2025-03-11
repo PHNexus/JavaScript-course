@@ -10,5 +10,3 @@ const pessoasListagem = funcionarios.filter((funcionario) => {
 });
 
 console.log(pessoasListagem);
-
-
